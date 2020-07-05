@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <script src="https://use.fontawesome.com/1ba1bbbe22.js"></script> -->
+        <!-- <script src="https://kit.fontawesome.com/dc5ea2571e.js" crossorigin="anonymous"></script> -->
+        <!-- meta  -->
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+
+        <title></title>
+        
+        <!-- CSS  -->
+        <link rel="icon" type="image/png" href="./img/logo_32.png" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="./vendors/css/materialize.min.css" media="screen" />
+        <link type="text/css" rel="stylesheet" href="./css/style.css" media="screen" />
+        <link type="text/css" rel="stylesheet" href="./css/login.css" media="screen" />
+        <link 
+        rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" 
+        crossorigin="anonymous"
+        />
+
+        
+    </head>
+    <body>
+        <div class="navbar-fixed">
+            <nav class="trans-white">
+                <div class="nav-wrapper">
+                  <a href="#" class="brand-logo">
+                      <img src="./img/tieddy-services-logo-64.png" alt="Tieddy Services Logo"/>
+                  </a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="black-text" href="#home-id">Home</a></li>
+                    <li><a class="black-text" href="#t-services-id">Our services</a></li>
+                    <li><a class="black-text" href="sass.html">FAQ</a></li>
+                    <li><a class="black-text" href="#contact-us-id">Contact us</a></li>
+                    <li><a class="black-text" href="#abt-us-id">About us</a></li>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="section"></div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m8 offset-m2 l6 offset-l3">
+                    <div class="card trans-white">
+                        <div class="card-action center trans-pink">
+                            <h6>Login With</h6>
+                            <div>
+                                <a class="btn waves-effect ts-gradient waves-light social-icon">
+                                    <i class="fab fa-google left"></i>Google
+                                </a>
+                                <a class="btn waves-effect ts-gradient waves-light social-icon">
+                                    <i class="fab fa-facebook-f left"></i>Facebook
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-content">
+
+                            <div class="center-align grey-text text-lighten-1" style="margin-bottom: 10px;">Or Be Classical</div>
+                            
+                            <form class="center-align">
+                                <div class="row">
+                                    <div class="input-field col s3">
+                                        <select>
+                                            <option value="+60">+60</option>
+                                        </select>
+                                        <label>Code</label>
+                                    </div>
+                                    <div class="input-field col s9">
+                                        <input type="number" id="id_mobile_no" />
+                                        <label for="id_mobile_no">Mobile Number</label>
+                                    </div>
+                                </div>
+                                <div class="input-field">
+                                    <input type="password" id="id_password" />
+                                    <label for="id_password">Password</label>
+                                </div>
+                                <div class="row">
+                                    <button class="btn-flat waves-effect waves-pink ts-color">Forgot Password?</button>
+                                </div>
+                                <div class="row">
+                                    <button class="btn waves-effect ts-gradient waves-light">LOGIN</button>
+                                </div>
+                            </form>
+                            <div class="center-align">
+                                <span class="grey-text text-darken-2">Don't have an account? </span>
+                                <a href="" class="ts-color">Register here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <!--  Scripts-->
+        <script type="text/javascript" src="./vendors/js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="./vendors/js/materialize.min.js"></script>
+
+        <script>
+        (function($){
+            $(document).ready(function(){
+                $('select').formSelect();
+            }); // end of document ready
+        })(jQuery); // end of jQuery name space
+        </script>
+    </body>
+</html>
